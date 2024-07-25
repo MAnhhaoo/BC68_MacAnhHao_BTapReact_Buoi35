@@ -6,30 +6,33 @@
     background-size: cover;
     background-position: center;
     position: relative;
-    background-color: #f0f0f0; /* Màu nền trong suốt để cho phép nền ảnh hiện lên */
+    background-color: #f0f0f0; 
+
+
+    
     
     &::before {
-      content: ''; /* Nội dung rỗng */
-      position: absolute; /* Để chồng lên phần tử chính */
+      content: ''; 
+      position: absolute; 
       top: 0;
       left: 0;
       width: 100%;
       height: 100%;
-      background: rgba(119, 115, 115, 0.404); /* Nền màu đen với độ trong suốt */
-      z-index: -1; /* Đưa phần tử ::before ra sau phần tử chính */
+      background: rgba(119, 115, 115, 0.404); 
+      z-index: -1; 
     }
   }
   
   .square {
-    width: 40px;       /* Chiều rộng của hình vuông */
-    height: 40px;      /* Chiều cao của hình vuông (cùng với chiều rộng để tạo thành hình vuông) */
-    border: 3px solid orange; /* Đường viền của hình vuông (tùy chọn) */
+    width: 40px;       
+    height: 40px;      
+    border: 3px solid orange; 
     display: flex;  
-    border-radius: 8px;    /* Căn giữa nội dung nếu cần */
-    align-items: center; /* Căn giữa theo chiều dọc */
-    justify-content: center; /* Căn giữa theo chiều ngang */
-    color: white;       /* Màu chữ (nếu có nội dung bên trong) */
-    font-size: 16px;    /* Kích thước chữ (nếu có nội dung bên trong) */
+    border-radius: 8px;    
+    align-items: center; 
+    justify-content: center; 
+    color: white;      
+    font-size: 16px;    
   }
   
 
