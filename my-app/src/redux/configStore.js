@@ -1,12 +1,11 @@
+// store.js
 import { configureStore } from '@reduxjs/toolkit';
-
-const haoReducer = () => "hao"; // Tạm thời tạo một reducer đơn giản
+import VephimSlice from '../redux/VephimSlice'; 
 
 const store = configureStore({
   reducer: {
-    hao: haoReducer,
+    vephim: VephimSlice, // Đổi tên thành 'vephim' để phù hợp với slice
   },
 });
 
 export default store;
-    

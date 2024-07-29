@@ -1,11 +1,11 @@
 import React from 'react';
+import { useDispatch, useSelector } from 'react-redux';
 
 const Shose = (props) => {
   // Hàm để kiểm tra nếu ghế đã được chọn
   const isSelected = (soGhe) => {
     return props.selectedSeats.some(s => s.soGhe === soGhe);
   };
-
   return (
     <div className="mx-auto p-4">
       {props.arrChongoi.map((item, index) => (
