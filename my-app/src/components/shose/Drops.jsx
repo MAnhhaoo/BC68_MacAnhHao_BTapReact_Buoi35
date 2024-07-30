@@ -209,9 +209,9 @@ const Drops = () => {
           </div>
         </div>
         <div className='space-y-10 mt-20 bookingMovie relative'>
-          <h2 className='text-white text-4xl bookingMovie'>Danh sách ghế bạn chọn</h2>
+          <h2 className='text-white text-4xl bookingMovie'>Danh sách chọn ghế </h2>
           <div className='square bg-orange-500'>
-            <span className='absolute left-16 text-2xl'>Ghế đã được chọn: {selectedSeats.filter(seat => seat.daDat).length}</span>
+            <span className='absolute left-16 text-2xl'>Ghế đã được chọn: 2</span>
           </div>
           <div className='square bg-green-500'>
             <span className='absolute left-16 text-2xl'>Ghế đang chọn: {dangchon}</span>

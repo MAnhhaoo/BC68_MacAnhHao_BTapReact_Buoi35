@@ -23,3 +23,4 @@ const VephimSlice = createSlice({
 export const { increaseDangChon, decreaseDangChon } = VephimSlice.actions;
 
 export default VephimSlice.reducer;
+
